@@ -1,4 +1,8 @@
 
+body {
+    font-family: "silkscreen", sans-serif;
+}
+
 .navegador {
     border-radius: 19px;
     padding: 10px;
@@ -6,7 +10,7 @@
     height: auto;
     overflow: hidden;
     background-color: #6b0366;
-    
+    box-shadow: 5px 5px 5px rgb(247, 159, 255);
   }
     .navegador a {
     float: left;
@@ -20,8 +24,26 @@
   .navegador a:hover {
     background-color: #bf19f1;
     color: rgb(59, 0, 47);
+    box-shadow: 5px 5px 5px rgb(247, 159, 255);
+    border-radius: 19px;
+    padding: 10px;
   }
 
-div {
-        box-shadow: 5px 5px 5px rgb(247, 159, 255);
-      }
+.column {
+    float: left;
+    width: 33.33%;
+    box-shadow: 5px 5px 5px rgb(145, 121, 235);
+    text-align: justify;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
