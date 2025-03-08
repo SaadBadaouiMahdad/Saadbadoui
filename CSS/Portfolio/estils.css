@@ -1,6 +1,6 @@
 
 body {
-    font-family: "silkscreen", sans-serif;
+    font-family: "Silkscreen",  bitmap;
 }
 
 .navegador {
@@ -32,8 +32,14 @@ body {
 .column {
     float: left;
     width: 33.33%;
-    box-shadow: 5px 5px 5px rgb(145, 121, 235);
-    text-align: justify;
+    text-align: justify ;
+    margin: 5%;
+    box-shadow: 2px 5px 15px rgb(70, 63, 95);
+
+    img {
+        float: left;
+        margin: 3%;
+      }
   }
   
   .row:after {
