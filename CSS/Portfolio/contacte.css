@@ -1,4 +1,8 @@
 
+body{
+    background-color: rgb(2, 63, 0);
+}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -11,12 +15,12 @@ input[type=text], select {
   
   input[type=submit] {
     width: 100%;
-    background-color: #00ff0d;
+    background-color: #10c919;
     color: rgb(255, 255, 255);
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 10px;
+    border-radius: 50px;
     cursor: pointer;
   }
   
@@ -25,14 +29,15 @@ input[type=text], select {
   }
   
   div {
-    border-radius: 5px;
+    border-radius: 40px;
     background-color: #1f862c;
     padding: 20px;
-    box-shadow: 5px 5px 5px rgb(76, 212, 128);
+    box-shadow: 5px 5px 30px rgb(76, 212, 128);
     
   }
 .form{
     font-family: "Silkscreen";
+    padding: 10%;
     label{
         color: rgb(255, 255, 255);
     }
