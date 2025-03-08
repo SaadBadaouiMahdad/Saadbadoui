@@ -1,6 +1,7 @@
 
 body {
     font-family: "Silkscreen",  bitmap;
+    background-color: #073B3A;
 }
 
 .navegador {
@@ -9,8 +10,8 @@ body {
     width: auto;
     height: auto;
     overflow: hidden;
-    background-color: #6b0366;
-    box-shadow: 5px 5px 5px rgb(247, 159, 255);
+    background-color: #0B6E4F;
+    box-shadow: 5px 5px 5px rgb(76, 212, 128);
   }
     .navegador a {
     float: left;
@@ -22,20 +23,21 @@ body {
   }
   
   .navegador a:hover {
-    background-color: #bf19f1;
+    background-color: #31CB00   ;
     color: rgb(59, 0, 47);
-    box-shadow: 5px 5px 5px rgb(247, 159, 255);
+    box-shadow: 5px 5px 5px #8D89A6;
     border-radius: 19px;
     padding: 10px;
   }
 
 .column {
+    background-color: rgb(255, 255, 255);
     float: left;
     width: 33.33%;
     text-align: justify ;
     margin: 5%;
     box-shadow: 2px 5px 15px rgb(70, 63, 95);
-
+    column-gap: 40px;
     img {
         float: left;
         margin: 3%;
