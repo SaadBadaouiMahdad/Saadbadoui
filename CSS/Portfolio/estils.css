@@ -36,11 +36,12 @@ body {
     width: 33.33%;
     text-align: justify ;
     margin: 2%;
-    padding: 2%;
+    padding: 3%;
     border-radius: 19px;
     box-shadow: 2px 5px 15px rgb(172, 245, 178);    
     column-gap: 40px;
     img {
+        size: 20%;
         float: left;
         margin: 3%;
         border-radius: 19px;
