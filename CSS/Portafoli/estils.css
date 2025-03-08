@@ -1,0 +1,14 @@
+
+.navegador a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+h4 {
+    color: blue;
+}
