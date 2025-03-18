@@ -2,6 +2,32 @@ body {
     font-family: "Silkscreen",  bitmap;
     background-color: #073B3A;
 }
+.navegador {
+    border-radius: 19px;
+    padding: 10px;
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+    background-color: #0B6E4F;
+    box-shadow: 5px 5px 5px rgb(76, 212, 128);
+  }
+    .navegador a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navegador a:hover {
+    background-color: #31CB00   ;
+    color: rgb(59, 0, 47);
+    box-shadow: 5px 5px 5px #8D89A6;
+    border-radius: 19px;
+    padding: 10px;
+  }
+
 .acts{ 
     background-color: rgba(255, 255, 255, 0.404);
     color: white;
