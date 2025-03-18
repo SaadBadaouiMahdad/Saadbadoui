@@ -1,0 +1,27 @@
+body > span:nth-child(1) {font-weight:600}
+
+body > span:nth-child(2) {color:yellow;
+font-weight: 600;}
+
+body > span:nth-child(3) {font-weight:600}
+
+body > span:nth-child(4) {color:yellow;
+    font-weight: 600;}
+
+body > span:nth-child(5) {background-color: rgba(0, 0, 255, 0.699);
+color:white}
+
+body > span:nth-child(6) {background-color: rgba(0, 0, 255, 0.699);
+    color:white}
+
+body > span:nth-child(7) {color:cornflowerblue}
+
+body > span:nth-child(8) {color:cornflowerblue}
+
+body > span:nth-child(9) {color:cornflowerblue}
+
+body > span:nth-child(10) {background-color: rgba(0, 0, 255, 0.699);
+    color:white}
+
+body > span:nth-child(11) {background-color: rgba(16, 223, 43, 0.699);
+    color:white}
