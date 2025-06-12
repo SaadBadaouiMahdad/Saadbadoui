@@ -1,0 +1,73 @@
+
+body{
+   font-family: "Silkscreen",  bitmap;
+    background-color: rgb(2, 63, 0);
+}
+.navegador {
+  font-family: "Silkscreen",  bitmap;
+  border-radius: 5%px;
+  padding: 10px;
+  width: 15%;
+  height: auto;
+  overflow: hidden;
+  background-color: #0B6E4F;
+  box-shadow: 5px 5px 5px rgb(76, 212, 128);
+}
+  .navegador a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navegador a:hover {
+  background-color: #31CB00   ;
+  color: rgb(59, 0, 47);
+  box-shadow: 5px 5px 5px #8D89A6;
+  border-radius: 19px;
+  padding: 20px;
+} 
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #09703c;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #10c919;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0e4210;
+  }
+  
+  div {
+    border-radius: 40px;
+    background-color: #1f862c;
+    padding: 20px;
+    box-shadow: 5px 5px 30px rgb(76, 212, 128);
+    
+  }
+.form{
+  font-family: "Silkscreen",  bitmap;
+    font-family: "Silkscreen";
+    padding: 10%;
+    margin: 5%;
+    label{
+        color: rgb(255, 255, 255);
+    }
+}
