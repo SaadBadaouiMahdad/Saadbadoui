@@ -1,7 +1,34 @@
 
 body{
+   font-family: "Silkscreen",  bitmap;
     background-color: rgb(2, 63, 0);
 }
+.navegador {
+  font-family: "Silkscreen",  bitmap;
+  border-radius: 5%px;
+  padding: 10px;
+  width: 15%;
+  height: auto;
+  overflow: hidden;
+  background-color: #0B6E4F;
+  box-shadow: 5px 5px 5px rgb(76, 212, 128);
+}
+  .navegador a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navegador a:hover {
+  background-color: #31CB00   ;
+  color: rgb(59, 0, 47);
+  box-shadow: 5px 5px 5px #8D89A6;
+  border-radius: 19px;
+  padding: 20px;
+} 
 
 input[type=text], select {
     width: 100%;
@@ -36,8 +63,10 @@ input[type=text], select {
     
   }
 .form{
+  font-family: "Silkscreen",  bitmap;
     font-family: "Silkscreen";
     padding: 10%;
+    margin: 5%;
     label{
         color: rgb(255, 255, 255);
     }
